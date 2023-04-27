@@ -1,0 +1,31 @@
+docker run: Runs a command in a new container.
+
+docker ps: Lists all running containers.
+
+docker images: Lists all images that are available locally.
+
+docker build: Builds a new image from a Dockerfile.
+
+docker push: Pushes an image to a remote repository.
+
+docker pull: Pulls an image from a remote repository.
+
+docker stop: Stops a running container.
+
+docker start: Starts a stopped container.
+
+docker restart: Restarts a running container.
+
+docker rm: Removes a container.
+
+docker rmi: Removes an image.
+
+docker exec: Executes a command in a running container.
+
+docker logs: Displays logs from a container.
+
+docker network: Manages Docker networks.
+
+docker volume: Manages Docker volumes.
+
+docker-compose: Manages multi-container Docker applications.
