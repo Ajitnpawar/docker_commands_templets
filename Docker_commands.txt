@@ -29,3 +29,5 @@ docker network: Manages Docker networks.
 docker volume: Manages Docker volumes.
 
 docker-compose: Manages multi-container Docker applications.
+
+docker run -d --name=webapp20 --mount source=new_vol,destination=/usr/share/nginx/html -p 80:80 nginx
