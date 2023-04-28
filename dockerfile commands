@@ -1,0 +1,26 @@
+FROM - Specifies the base image to be used for the build.
+
+MAINTAINER - Specifies the author or maintainer of the image.
+
+RUN - Executes a command within the container.
+
+CMD - Specifies the default command to be executed when the container starts.
+
+ENTRYPOINT - Specifies the command that will be run when the container starts.
+
+ENV - Sets an environment variable within the container.
+
+EXPOSE - Exposes a port to the host machine.
+
+ADD - Copies files from the host machine to the container.
+
+COPY - Copies files from the host machine to the container.
+
+WORKDIR - Sets the working directory for the container.
+
+USER - Sets the user that will run the container.
+
+VOLUME - Creates a volume in the container.
+
+ARG - Defines a build-time argument.
+
