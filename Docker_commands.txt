@@ -30,4 +30,8 @@ docker volume: Manages Docker volumes.
 
 docker-compose: Manages multi-container Docker applications.
 
+#Mount docker volume on multiple docker container
 docker run -d --name=webapp20 --mount source=new_vol,destination=/usr/share/nginx/html -p 80:80 nginx
+
+#add local dir as docker volume 
+docker run -d -p 9000:80 --name webapp4 -v /home/ec2-user/The_site:/usr/share/nginx/html nginx
